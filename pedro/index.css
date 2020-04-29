@@ -1,0 +1,89 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;   
+}
+
+body {
+    height: 100vh;
+    background-attachment:fixed;
+    background-color:#000000;
+    background-image: linear-gradient(to right, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 70%,rgb(0, 0, 0) 100%), linear-gradient(to left, rgba(255,153,153,0) 0%,rgba(255,153,153,0) 20%,rgb(0, 0, 0) 100%), url(/images/background.jpg);
+    background-position: top center ;
+    background-repeat:no-repeat;
+    background-size: 55em;
+    text-align: center;
+}
+
+img {
+   
+    width: 32em; 
+    margin: 20px auto;
+}
+ 
+
+.box {
+    
+    border: 7px solid black;
+    max-width:60%;
+    background-color: rgba(219, 194, 194, 0.562);
+    padding: 12px;
+    margin: 15px 20%;
+}
+
+.box2 {
+    position: stick;
+    width: 60%;
+    border: 7px solid #f1eaea00;
+    background-color: #f1eaea99;
+    padding: 11px;
+    margin: 15px 20%;       
+}
+
+form > div {
+    position: relative;
+  }
+  form > div > label {
+    position: relative;
+  }
+
+#name, #email, #time {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 5px;
+    font-style: italic;
+    height:45px;
+    width: 251px;
+}
+
+.cblack input::placeholder {
+    color: black;
+  }
+
+label{
+    width: 250px;
+}
+
+label {
+    display:block;
+    text-align: left;
+    color: white;
+    font-size: 11px;
+    padding: 6px;
+    background-color:rgb(54,54,54); 
+}
+button {
+    background-color:rgb(54,54,54);
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    height: 40px;
+    border: none;
+    width: 250px;
+    margin-top:10px;    
+    
+}
+
