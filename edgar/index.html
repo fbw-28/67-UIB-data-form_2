@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Data Exercises - Styling Forms</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="container">
+    
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+
+        <div class="msg">
+            <h1>The Best Craft Beer in Spain!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nam, libero qui error unde, est inventore in sapiente corporis dignissimos doloremque.</p>
+        </div>
+        
+        <div class="form-box">
+            <h2>Make a Reservation</h2>
+            <p>Get your spot before somebody else does!</p>
+            
+            <div class="form-center">
+                <form action="#" method="POST">
+                    <div class="label-box">
+                    <label for="name">Your Name</label><br/>
+                    </div>    
+                    <input type="text" id="name" name="name" maxlength="45" placeholder="John B. Goode"><br/>
+
+                    <div class="label-box">
+                    <label for="email">Your Email</label><br/></div>
+                    <input type="email" id="email" name="email" maxlength="65" placeholder="your@email.beer"><br/>
+                    <div class="label-box">
+                    <label for="r-time">Reservation Time</label><br/></div>
+                    <input type="datetime-local" id="r-time" name="r-time" maxlength="65"><br/>
+                    <button type="submit">Reserve Now</button><br/>
+                
+                </form>
+            </div>
+        
+        </div>
+        
+        <div class="ei-amigo">
+            <p>©2018 - EI Amigo</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
