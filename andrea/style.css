@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* html, body{ 
+    min-width:100vw;
+    min-height: 99vh;
+  } */
+
+html {
+    border: 5px solid white;  
+}
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(87, 85, 85);
+    height: 99vh;
+}
+
+header, main {
+    margin: auto;
+    width: 45%;
+}
+
+img {
+    height: 250px;
+    margin: 5% auto;
+    width: 100%;
+}
+
+h1, h2, h3, p {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    flex-basis: 100%;
+    font-size: xx-large
+}
+
+.container-top {
+    background-image: url(../images/transparent_white.png);
+    border: 10px solid black;
+}
+
+.container-mid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    background-image: url(../images/transparent_white.png);
+    background-size: cover;
+}
+
+form {
+    flex-basis: 60%
+}
+
+ul {
+    list-style: none;
+}
+
+label, button {
+    display: block;
+    background-color: rgb(56, 53, 53);
+    color: white;
+}
+
+label {
+    padding: 3px
+}
+input {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+input, button {
+    width: 100%;
+}
+
+::placeholder {
+    font-size: x-large;
+    font-style: italic;
+    color: rgba(128, 128, 128, 0.815);
+}
+
+button {
+    padding: 10px;
+    margin: 7px 0 40px;
+    font-size: x-large;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 1%;
+    color: rgb(66, 64, 64);
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+
