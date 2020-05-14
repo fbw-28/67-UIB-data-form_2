@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(./images/background.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: #000;
+}
+
+.container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.logo{
+    padding-top: 15px;
+}
+
+.msg{
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 10px solid black;
+    background-image: url(./images/transparent_white.png);
+}
+
+h1{
+    margin-bottom: 10px;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+.form-box{
+    padding: 15px;
+    margin-bottom: 15px;
+    background-image: url(./images/transparent_white.png);
+}
+
+.form-center{
+    text-align: left;
+    margin: auto;
+    width: 270px;
+}
+
+.label-box{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 2px;
+    width: 100%;
+    background-color: #333;
+}
+
+input{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+    padding-left: 8px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+button{
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: #333;
+    border: 0;
+    color: #fff;
+    padding: 4px;
+}
+
+button:hover{
+    background-color: #999;
+    color: #333;
+}
+
+.ei-amigo{
+    color: #fff;
+    opacity: 0.5;
+}
+
+.form-box p{
+    margin: 20px;
+}
