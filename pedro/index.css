@@ -34,7 +34,7 @@ img {
 }
 
 .box2 {
-    position: stick;
+    position: sticky;
     width: 60%;
     border: 7px solid #f1eaea00;
     background-color: #f1eaea99;
@@ -42,12 +42,6 @@ img {
     margin: 15px 20%;       
 }
 
-form > div {
-    position: relative;
-  }
-  form > div > label {
-    position: relative;
-  }
 
 #name, #email, #time {
     font-family: 'Times New Roman', Times, serif;
